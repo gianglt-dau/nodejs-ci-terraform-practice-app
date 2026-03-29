@@ -1,0 +1,9 @@
+node_modules
+terraform/
+.terraform
+**/.terraform.lock.hcl
+*.log
+.git
+docs
+__tests__
+coverage
