@@ -5,7 +5,8 @@ function sum(a, b) {
 }
 
 function sumab(a, b) {
-  return a - b;
+    // Cập nhật lại cho đúng với tên hàm
+  return a + b;
 }
 
 module.exports = {
