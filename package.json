@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-ci-terraform-practice-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for CI, Docker, and Terraform practice",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
